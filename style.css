@@ -33,3 +33,12 @@
     top: -500px;
     animation: block 2s infinite linear;
 }
+/*Jump Man*/
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+}
