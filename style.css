@@ -1,20 +1,27 @@
 *{
+    padding-top: 1em;
     padding: 0;
     margin: 0;
+    background-color: rgba(48, 44, 44, 0.966) 
 }
+/*trying to add background image*/
 #game{
-    width: 400px;
+    background-image: url("images/ezgif.com-gif-maker\ \(1\).gif");
+    background-image: center;
+    width: 500px;
+    left: 100px;
     height: 500px;
-    border: 1px solid black;
-    margin:auto
-    overflow hidden;
-    /* make sure to check why this isnt working yet*/
+    border: 5px solid black;
+    margin: auto;
+    overflow: hidden;
+    /*Fixed the overflow!*/
 }
 /*Change colors*/
 #block{
+    background-image: url("images/Metal_Beam_Platform.png");
     width: 50px;
     height: 500px;
-    background-color: black;
+    background-color: transparent;
     position: relative;
     left: 400px;
     animation: block 2s infinite linear
@@ -25,9 +32,10 @@
 }
 /*Change Colors making sure the same excat thing i did else where works here*/
 #hole{
+    background-image: url("images/portal-pixel-art.gif");
     width: 50px;
     height: 150px;
-    background-color: red;
+    background-color: lightcoral;
     position: relative;
     left: 400px;
     top: -500px;
@@ -35,10 +43,18 @@
 }
 /*Jump Man*/
 #character{
+    background-image: url("images/clean\ smaller.png");
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: transparent;
     position: absolute;
     top: 100px;
-    border-radius: 50%;
+    border-radius: square 50%;
+}
+h1 {
+    padding-top: 1em;
+    text-align: center;
+}
+h2 {
+    text-align: center;
 }
